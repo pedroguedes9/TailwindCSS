@@ -10,14 +10,36 @@
             theme: {
                 extend: {
                     colors: {
-                        vermelho: "#FF0000"
+                        branco: "#FFFFFF",
+                        vermelhoEscuro: "#990000"
                     }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-vermelho">
-    <h1 class="text-3xl font-bold underline bg-blue-600">Hello World</h1>
+<body >
+    <div class="w-screen h-screen p-5 bg-black">
+        <div class="bg-white w-96 border border-gray-500 p-4 rounded-md" >
+            <div id="info">
+                <div id="img" class="inline-block ">
+                    <img src="https://media.istockphoto.com/id/1326417862/pt/foto/young-woman-laughing-while-relaxing-at-home.jpg?s=612x612&w=0&k=20&c=F0vQkVvqGT3jOFrJ4bs_fs0d4xJPjP9jLSvZRm_BBD4=" alt="foto" class="w-16 h-16 rounded-full" >
+                </div>
+                <div id="mensage" class="inline-block ml-3">
+                    <h1 class="font-semibold pb-2">Rafaela silva</h1>
+                    <p class="font-normal text-gray-500">Te mandou um convite!</p>
+                </div>
+            </div>
+            <div id="choice" class="mt-4" >
+                <button class="bg-blue-500 py-2 px-5 rounded-md border border-gray-200">
+                    Aceitar
+                </button>
+                <button class=" py-2 px-5 rounded-md border border-gray-200">
+                    Negar
+                </button>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
